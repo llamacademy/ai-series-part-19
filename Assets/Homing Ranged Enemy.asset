@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77cbe5d8be424a34b9c889ac6525b7cc, type: 3}
+  m_Name: Homing Ranged Enemy
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 744707691948855117, guid: c808f4c59dd3d7e438affac60758b695, type: 3}
+  AttackConfiguration: {fileID: 11400000, guid: 7814186c7539bd34b8dffa6d8ce642b9,
+    type: 2}
+  Health: 50
+  DefaultState: 3
+  IdleLocationRadius: 4
+  IdleMovespeedMultiplier: 0.5
+  Waypoints: 4
+  LineOfSightRange: 7.5
+  FieldOfView: 90
+  AIUpdateInterval: 0.1
+  Acceleration: 8
+  AngularSpeed: 120
+  AreaMask: -1
+  AvoidancePriority: 50
+  BaseOffset: 0
+  Height: 2
+  ObstacleAvoidanceType: 1
+  Radius: 0.5
+  Speed: 4
+  StoppingDistance: 0.5
